@@ -1,2 +1,13 @@
 NUEVOS-FALLOS
 -------------
+·BisiestoTest
+https://github.com/apayol/isi-practica-idm/blob/master/BisiestoTest.java
+Se podría añadir un test que comprobara que los años que no son múltiplos de 4 no son bisiestos.
+El test introducido ha sido:
+@Test
+	public void testNotMult4()
+	{
+		assertFalse(Bisiestos.esBisiesto(101));
+	}
+
+
