@@ -1,6 +1,6 @@
 NUEVOS-FALLOS
 -------------
-·BisiestoTest
+·BisiestoTest:
 link original: https://github.com/apayol/isi-practica-idm/blob/master/BisiestoTest.java
 Se podría añadir un test que comprobara que los años que no son múltiplos de 4 no son bisiestos.
 El test introducido ha sido:
@@ -20,3 +20,8 @@ ERRORES:
 	2) En RomanNumeraljava --> Cuando hacían: System.out.println(test.convierte("IIIIIIII")); , les salía 8 y luego saltaba la excepción, lo he corregido para que directamente salte la excepción sin que salga ningún número erróneo.
 	3) También he corregido que si tiene más de  3 letras iguales, salte la excepción, puesto que ese número no existe.
 link editado: https://github.com/apayol/isi-practica-idm/blob/master/RomanNumeralModificado/RomanNumeralTest.java
+
+·DescuentoBlackFriday:
+link original: https://github.com/apayol/isi-practica-idm/blob/master/DescuentoBlackFridayTest.java
+He añadido un test nuevo con el precio original y precio final para el caso en el que el día actual no fuera Black Friday. Así, ahora tenemos dos test de precio válido, los dos con el precio final correcto en su correspondiente caso. Si el día actual es Black Friday, el test TestforValidPrice  fallaría, y, en el caso de que no sea Black Friday, fallaría testForValidPrice_BlackFriday.
+
