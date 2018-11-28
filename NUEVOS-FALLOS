@@ -24,4 +24,5 @@ link editado: https://github.com/apayol/isi-practica-idm/blob/master/RomanNumera
 ·DescuentoBlackFriday:
 link original: https://github.com/apayol/isi-practica-idm/blob/master/DescuentoBlackFridayTest.java
 He añadido un test nuevo con el precio original y precio final para el caso en el que el día actual no fuera Black Friday. Así, ahora tenemos dos test de precio válido, los dos con el precio final correcto en su correspondiente caso. Si el día actual es Black Friday, el test TestforValidPrice  fallaría, y, en el caso de que no sea Black Friday, fallaría testForValidPrice_BlackFriday.
+link editado: https://github.com/apayol/isi-practica-idm/blob/master/DescuentoBlackFridayTestModificado.java
 
