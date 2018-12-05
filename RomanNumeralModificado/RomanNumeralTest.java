@@ -22,12 +22,32 @@ public class RomanNumeralTest
    }
 
 	
-	@Parameters
+		@Parameters
 	public static Collection<Object[]> romanValues()
 	{
-		return Arrays.asList (new Object [][] {{"", 5},{"HJK", 5},{"XIIII", 5},{"V", 5}, {"MXV", 1015}, {"CD", 400}, {"MXV", 5}, {"XXX", 30}, {"XXXX", 40} , {"MXVI", 1015}, {"Z", 5}, {"5", 5}, {"VIIII", 9}});
+		return Arrays.asList (new Object [][] {{"V", 5}, {"MXV", 1015}, {"CD", 400}, {"XXX", 30} ,{"V", 5}, {"MXV", 1015},{"XXX", 30}});
 	}
 	
+	//@Parameters
+	//public static Collection<Object[]> romanValues()
+	//{
+		//return Arrays.asList (new Object [][] { {"MXV", 5},{"XXXX", 40}, {"MXVI", 1015}, {"MXV", 5}, {"XXXX", 40} , {"MXVI", 1015}, {"Z", 5}, {"5", 5}, {"VIIII", 9}});
+	//}
+	
+	
+	
+	@Test
+	public void additionTest()
+	{
+		assertTrue ("Addition Test", decimal == RomanNumeral.convierte(roman));
+	}
+	//@Test
+	//public void additionTest()
+	//{
+		//assertFalse ("Addition Test", decimal == RomanNumeral.convierte(roman));
+	//}
+ }
+   
 	
 	
 	// Test para String nulo
@@ -51,11 +71,6 @@ public class RomanNumeralTest
 	 	//RomanNumeral.convierte("XIIII");
 	 //}
 
-	@Test
-	public void additionTest()
-	{
-		assertTrue ("Addition Test", decimal == RomanNumeral.convierte(roman));
-	}
 	
 	// Test para String romano
 	//@Test
@@ -63,8 +78,3 @@ public class RomanNumeralTest
 	//{
 		//assertTrue("Ese numero no es romano", 17 == RomanNumeral.convierte("XVII")); // Se imprimirá este msg si test falla
 	//}
-
-
-	
-	
-}

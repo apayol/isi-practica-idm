@@ -14,11 +14,11 @@ link editado: https://github.com/apayol/isi-practica-idm/blob/master/BisiestoTes
 
 ·RomanNumeralTest:
 link original: https://github.com/apayol/isi-practica-idm/blob/master/RomanNumeralTest.java
-
 ERRORES:
 	1) El RomanNumeralTest, he simplificado el código, he puesto más ejemplos de prueba además de los que ellos tenían y ahora se puede observar no solo cuantas pruebas de test hay sino, cuantos fallan y cuantas no.
 	2) En RomanNumeraljava --> Cuando hacían: System.out.println(test.convierte("IIIIIIII")); , les salía 8 y luego saltaba la excepción, lo he corregido para que directamente salte la excepción sin que salga ningún número erróneo.
 	3) También he corregido que si tiene más de  3 letras iguales, salte la excepción, puesto que ese número no existe.
+	4) He creado 2 test, uno con todos los números romanos a True y otro con todos los números romanos a False.
 link editado: https://github.com/apayol/isi-practica-idm/blob/master/RomanNumeralModificado/RomanNumeralTest.java
 
 ·DescuentoBlackFriday:
