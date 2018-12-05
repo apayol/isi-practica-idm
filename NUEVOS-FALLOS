@@ -21,6 +21,12 @@ ERRORES:
 	4) He creado 2 test, uno con todos los números romanos a True y otro con todos los números romanos a False.
 link editado: https://github.com/apayol/isi-practica-idm/blob/master/RomanNumeralModificado/RomanNumeralTest.java
 
+·Embotelladora:
+link original: https://github.com/apayol/isi-practica-idm/blob/master/EmbotelladoraTest.java
+Se contemplan todos los casos posibles. Adaptado nuestro Test, pasa todos ellos.
+link test adaptado: https://github.com/apayol/isi-practica-idm/blob/master/EmbotelladoraModificado/MiEmbotelladoraTestAdaptado.java
+link editado: Nada que corregir
+
 ·DescuentoBlackFriday:
 link original: https://github.com/apayol/isi-practica-idm/blob/master/DescuentoBlackFridayTest.java
 He añadido un test nuevo con el precio original y precio final para el caso en el que el día actual no fuera Black Friday. Así, ahora tenemos dos test de precio válido, los dos con el precio final correcto en su correspondiente caso. Si el día actual es Black Friday, el test TestforValidPrice  fallaría, y, en el caso de que no sea Black Friday, fallaría testForValidPrice_BlackFriday.
